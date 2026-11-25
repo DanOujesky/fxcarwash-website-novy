@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://www.fxcarwash.cz/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.fxcarwash.cz/assets/images/hero-exterior.jpg</image:loc>
+      <image:title>F.X. CarWash — bezkontaktní automyčka Horní Bříza</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.fxcarwash.cz/horni-briza.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.fxcarwash.cz/assets/images/hero-exterior.jpg</image:loc>
+      <image:title>Exteriér mycího centra F.X. CarWash v Horní Bříze</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.fxcarwash.cz/assets/images/hero-action.webp</image:loc>
+      <image:title>Bezkontaktní mytí vozu vysokotlakou pistolí</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.fxcarwash.cz/assets/images/hero-aerial.webp</image:loc>
+      <image:title>Letecký pohled na mycí centrum F.X. CarWash</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.fxcarwash.cz/obchodni-podminky.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

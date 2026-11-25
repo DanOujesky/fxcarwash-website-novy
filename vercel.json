@@ -1,0 +1,173 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-nas",
+      "destination": "/horni-briza.html#o-nas",
+      "statusCode": 301
+    },
+    {
+      "source": "/nabidka",
+      "destination": "/horni-briza.html#nabidka",
+      "statusCode": 301
+    },
+    {
+      "source": "/programy-na-myti",
+      "destination": "/horni-briza.html#programy",
+      "statusCode": 301
+    },
+    {
+      "source": "/firmy",
+      "destination": "/horni-briza.html#firmy",
+      "statusCode": 301
+    },
+    {
+      "source": "/novinky",
+      "destination": "/horni-briza.html#novinky",
+      "statusCode": 301
+    },
+    {
+      "source": "/kontakt",
+      "destination": "/horni-briza.html#kontakt",
+      "statusCode": 301
+    },
+    {
+      "source": "/obchodni-podminky",
+      "destination": "/obchodni-podminky.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/doprava",
+      "destination": "/obchodni-podminky.html",
+      "statusCode": 307
+    },
+    {
+      "source": "/objednat-kartu",
+      "destination": "/horni-briza.html#fx-karty",
+      "statusCode": 307
+    },
+    {
+      "source": "/dobit-kartu",
+      "destination": "/horni-briza.html#fx-karty",
+      "statusCode": 307
+    },
+    {
+      "source": "/login",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/register",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/profil",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/moje-karty",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/kosik",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/souhrn",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/admin",
+      "destination": "/",
+      "statusCode": 307
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "/",
+      "statusCode": 307
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+        }
+      ]
+    }
+  ]
+}

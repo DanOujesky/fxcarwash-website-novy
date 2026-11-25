@@ -1,0 +1,10 @@
+# robots.txt — F.X. CarWash s.r.o.
+# https://www.fxcarwash.cz/
+
+User-agent: *
+Allow: /
+
+# Stránky vyřazené z indexu řeší meta robots (noindex) přímo v HTML,
+# proto je zde nechceme blokovat — crawler je musí načíst, aby noindex viděl.
+
+Sitemap: https://www.fxcarwash.cz/sitemap.xml
